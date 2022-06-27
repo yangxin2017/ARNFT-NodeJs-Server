@@ -3,3 +3,4 @@
 在此基础上做了如下修改：
 1. 修改ARToolKitJS.cpp，将PAGES_MAX最大设置为60。
 2. 增加webassembly编辑参数-s ALLOW_MEMORY_GROWTH=1，将内存调整为可变内存。
+3. 修改Axio请求，改为文件读取。
