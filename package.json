@@ -1,0 +1,43 @@
+{
+  "name": "artoolkit5-js",
+  "version": "0.0.5",
+  "description": "ES6 module port of artoolkit5",
+  "main": "dist/ARToolkit.js",
+  "scripts": {
+    "dev": "webpack --mode development --progress --colors --watch",
+    "build": "webpack --mode production",
+    "build-lib": "node ./scripts/makem.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andypotato/artoolkit5-js.git"
+  },
+  "author": "Andreas Schallwig",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/andypotato/artoolkit5-js/issues"
+  },
+  "homepage": "https://github.com/andypotato/artoolkit5-js#readme",
+  "keywords": [
+    "AR",
+    "Augmented Reality",
+    "ARToolkit5",
+    "Emscripten"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.16.0",
+    "@stdlib/fs-read-file": "^0.0.8",
+    "axios": "^0.24.0",
+    "body-parser": "^1.20.0",
+    "canvas": "^2.9.1",
+    "express": "^4.18.1"
+  }
+}
